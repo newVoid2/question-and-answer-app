@@ -75,7 +75,7 @@ if __name__ == "__main__":
     st.title('OpenAI with langchain')
     st.subheader('LLM Question-Answering Application 🤖')
     with st.expander('Instructions'):
-        st.text('Use the sidebar to upload your document to the app which use ChaptGPT-4 to \nscan and answer all relevant questions. The chunk size determine the number of \nchunks and the k value determine how many chunks to view when generating \nan answer. It ideal to increase the k value to increase the chance of the AI to \ngenerate the right response. Click the Add data button only to clear the files \nthat are uploaded.')
+        st.text('Use the sidebar to upload your document to the app which use ChaptGPT-4 to \nscan and answer all relevant questions. The chunk size determine the number of \nchunks, and the k value determine how many chunks to view when generating \nan answer. It ideal to increase the k value to increase the chance of the AI to \ngenerate the right response. Click the Add data button only to clear the files \nthat are uploaded.')
     st.divider()
 
     with st.sidebar:
